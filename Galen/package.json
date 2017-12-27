@@ -1,0 +1,11 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "galen test tests/ --htmlreport reports"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "galenframework-cli": "^2.3.6"
+  }
+}

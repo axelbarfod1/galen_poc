@@ -1,0 +1,14 @@
+@objects
+    titulo          css         .auth-title
+    container_form  css         .auth-box.auth-box_container
+    container_form  css         .auth-box.auth-box_container
+    user_id_input   id          #user_id
+    boton_continuar id          #registration-link
+
+
+@set
+    container_elements_vertical_margin
+
+= Titulo =
+    titulo:
+        |   esta ubicado en la loma del orto ${}

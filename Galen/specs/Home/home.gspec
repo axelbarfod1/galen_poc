@@ -1,0 +1,12 @@
+@objects
+    search              css      .nav-search-input
+    menu                id       #nav-header-menu
+
+
+= Home Page =
+    search:
+            height 40px
+            width 530px
+    menu:
+            height 50 to 55px
+            width 295 to 300px

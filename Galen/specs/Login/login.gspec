@@ -2,13 +2,33 @@
     titulo          css         .auth-title
     container_form  css         .auth-box.auth-box_container
     container_form  css         .auth-box.auth-box_container
-    user_id_input   id          #user_id
-    boton_continuar id          #registration-link
-
-
-@set
-    container_elements_vertical_margin
+    user_id_input   id          user_id
+    boton_continuar id          registration-link
+    login_form      css         #main > div:nth-child(3)
+    link_registrar  id          registration-link
 
 = Titulo =
     titulo:
-        |   esta ubicado en la loma del orto ${}
+        above login_form 10 to 60 px
+
+    login_form:
+        below titulo 10 to 60 px
+
+= Login Container =
+    user_id_input:
+        above boton_continuar 60 to 90 px
+
+    boton_continuar:
+        below user_id_input 60 to 90 px
+
+
+= Botones en el Form =
+    boton_continuar:
+        above link_registrar -50 to -40 px
+
+    link_registrar:
+        below boton_continuar -50 to -40 px
+
+= Contenedor =
+    boton_continuar:
+        inside login_form 145px left, 147px right, 182px top, 54px bottom
